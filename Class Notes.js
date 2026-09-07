@@ -1,7 +1,7 @@
-Class date : 12 Aug
-Datatype: 
-   let n = 100
-  let m = "200"
+// Class date : 12 Aug
+// Datatype: 
+let n = 100
+let m = "200"
 
   let h = String (n)
   let g = Number (m)
@@ -27,7 +27,7 @@ console.log(45|4)
 console.log(45^4)
 ~ NOT 
 
-Date : 13 Aug
+// Date : 13 Aug
 
 ~ (Negation)
 ! (Not)
@@ -49,8 +49,8 @@ console.log(null < 0)
 console.log(null > 0)
 console.log(null >= 0)
 
-console.log(135>>3) {>> is Right Shift}
-console.log(135<<3) {<< is left Shift}
+console.log(135>>3) // {>> is Right Shift}
+console.log(135<<3) // {<< is left Shift}
 
 
 
