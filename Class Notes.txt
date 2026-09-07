@@ -1,0 +1,87 @@
+Class date : 12 Aug
+Datatype: 
+   let n = 100
+  let m = "200"
+
+  let h = String (n)
+  let g = Number (m)
+
+  console.log (h)
+  console.log(g)
+  console.log (typeof n)
+  console.log(typeof m)
+
+  let u = Boolean (h)
+  console.log (u)
+
+  let c = 
+
+ console.log (2+3)
+ console.log(5-3)
+ console.log(3**4)
+ console.log(99%2)
+ console.log(40/100*2)
+
+console.log(45&4)
+console.log(45|4)
+console.log(45^4)
+~ NOT 
+
+Date : 13 Aug
+
+~ (Negation)
+! (Not)
+
+
+console.log (2 == 3)
+console.log (2 !== 3)
+console.log (2 == "2")
+console.log (2 === "2")
+console.log (~15)
+
+console.log(2 > 3)
+console.log(2 < 3)
+console.log(2 <= 3)
+console.log(2 >= 3)
+
+console.log(null == 0)
+console.log(null < 0)
+console.log(null > 0)
+console.log(null >= 0)
+
+console.log(135>>3) {>> is Right Shift}
+console.log(135<<3) {<< is left Shift}
+
+
+
+
+// // cheak wheater a number is even or odd
+
+// // Can Vote or Not 
+
+// // let a = 4
+// // if (a % 2 == 0){
+// //     console.log("even")
+// // } 
+// // else
+// // {console.log ("odd")}
+
+// // Cheak Whether a odd number is divisible by 5 or not
+
+// let a = 10 
+// if (a % 5 === 0){console.log("even")}
+// else {console.log("odd")}
+
+let a = "puple"
+
+if (a === "red"){
+    console.log("Stop")
+}
+else if (a === "yellow"){
+    console.log("ready to go")
+}
+else if (a === "green") {console.log("Go")
+}
+
+else {
+    console.log ("undifind")}
