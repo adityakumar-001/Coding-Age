@@ -13,11 +13,16 @@
 
 // Work is Finally Done:
 
-let  a = 55, b = 60,  c = 65
-d = a + b + c
-if (d === 180){console.log("Formation of Triangle")}
+let  a = 60, b = 60,  c = 60
+let d = a + b + c
+if (d != 180 ) {
+    console.log ("Not a triangle")}
 
-if (a < 90 & b < 90 & c < 90, d === 180) {console.log ("It a Acute triangle")}
-else if ( a === 90 | b === 90 | c === 90, d === 180) {console.log ("Right angle Triangle")}
-else if  ( a > 90 | b > 90 | c > 90 , d === 180) {console.log ("Obtuse angle Triangle")}
-else {console.log("Its NOT A Triangle")}
+else if ( a < 90 & b < 90 & c < 90) {
+    console.log ("It a Acute triangle")}
+else if (a === 90 | b === 90 | c === 90) {
+    console.log ("Right angle Triangle")}
+else if (a > 90 | b > 90 | c > 90 ) {
+    console.log ("Obtuse angle Triangle")}
+
+else {console.log("Not a Triangle")};

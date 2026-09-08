@@ -38,7 +38,7 @@
 
 // binarry to number 
 // Sum of numbers
-let number = 7864
+let number = 123
 let ans = 0;
 while (number > 0){
     let lastdigit = number % 10

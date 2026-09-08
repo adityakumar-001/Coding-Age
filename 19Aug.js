@@ -2,20 +2,21 @@
 // while loop run atleast one time
 // let y = 10;
 // do {console.log(y);
-//     y = y + 1;
+//     y = y++;
 // }while (y<=10);
 
 
 // Braek and continue
 
 // continue
-// for (let i = 1; i <= 10; i++){
-//     // if (i % 3= =0){}
-//     console.log(i)
-//     continue
-// }
+for (let i = 1; i <= 10; i++){
+    if (i % 3 == 0){
+    }
+    console.log(i)
+    continue
+}
 
-// break 
+    // break;
 // for (let i = 1; i <= 10; i++){
 //     if (i % 3 == 0){
 //         console.log(i)
@@ -50,12 +51,12 @@
 // }
 
 // Number braek
-arra1 = ["hello", true, false, 65, "world", undefined, 73.3, [87, true]] 
+// arra1 = ["hello", true, false, 65, "world", undefined, 73.3, [87, true]] 
 
-for (let i = 0; i < arra1.length; i++){
-    console.log(arra1[i])
-    if (typeof arra1[i] == "number"){
-        break
-        }
-}
+// for (let i = 0; i < arra1.length; i++){
+//     console.log(arra1[i])
+//     if (typeof arra1[i] == "number"){
+//         break
+//         }
+// }
 

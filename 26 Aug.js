@@ -26,22 +26,22 @@
 
 // Cheak whether a number is an Armstrong number.
 // 153 --> 1^3 + 5^3 + 3^3 = 153
-// let number = 152;
-// let Orignal = number
-// let ans = 0;
-// while (number > 0){
-//     let lastdigit = number % 10
-//      lastdigit = lastdigit **3
-//     ans += lastdigit
-//     number = Math.floor(number /10)
-// }
-// if (Orignal == ans){
-//     console.log("Its Armstrong Number");
-// }
-// else {
-//     console.log("Not a Armstrong Number");
+let number = 153;
+let Orignal = number
+let ans = 0;
+while (number > 0){
+    let lastdigit = number % 10
+     lastdigit = lastdigit **3
+    ans += lastdigit
+    number = Math.floor(number /10)
+}
+if (Orignal == ans){
+    console.log("Its Armstrong Number");
+}
+else {
+    console.log("Not a Armstrong Number");
     
-// }
+}
 
 // 145 --> 1! + 4! + 5! = 145
 // let num = 145;
