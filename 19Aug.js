@@ -9,19 +9,18 @@
 // Braek and continue
 
 // continue --> Skip krta hai 
-for (let i = 1; i <= 10; i++){
-    if (i % 3 == 0){
-    continue
-}
-    console.log(i)
-    
-}
-
-    // break;
 // for (let i = 1; i <= 10; i++){
 //     if (i % 3 == 0){
-//         console.log(i)
+//     continue
+// }
+//     console.log(i)   
+// }
+
+// break;
+// for (let i = 1; i <= 10; i++){
+//     if (i % 9 == 0){
 //            break } 
+//            console.log(i)
 //         }
 
 
@@ -47,17 +46,17 @@ for (let i = 1; i <= 10; i++){
 // console.log(arra1.length)
 // for (let i = 0; i < arra1.length; i++){
 //     console.log(arra1[i])
-//     if (arra1[i] == "world")
+//     if (arra1[i] == undefined)
 //     break
 // }
 
 // Number braek
-// arra1 = ["hello", true, false, 65, "world", undefined, 73.3, [87, true]] 
+arra1 = ["hello", true, false, 65, "world", undefined, 73.3, [87, true]] 
 
-// for (let i = 0; i < arra1.length; i++){
-//     console.log(arra1[i])
-//     if (typeof arra1[i] == "number"){
-//         break
-//         }
-// }
+for (let i = 0; i < arra1.length; i++){
+        console.log(arra1[i])
+    if (typeof arra1[i] == "number"){
+        break
+        }
+}
 
