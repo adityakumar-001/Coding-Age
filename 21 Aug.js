@@ -1,14 +1,14 @@
 
 // //  Maths and NUmbers
-// // const num = 64
-// // console.log(typeof num)
-// // const anotherNum = new Number(53);
-// // console.log(anotherNum)
+// const num = 64
+// console.log(typeof num)
+// const anotherNum = new Number(53);
+// console.log(anotherNum)
 
-// // console.log(typeof anotherNum)
+// console.log(typeof anotherNum)
 
-// // const amount = 8737483
-// // console.log(amount.toString().length)
+const amount = 8737483
+console.log(amount.toString().length)
 
 // // const result = 12.3456789123;
 
@@ -38,12 +38,12 @@
 
 // binarry to number 
 // Sum of numbers
-let number = 123
-let ans = 0;
-while (number > 0){
-    let lastdigit = number % 10
-    ans = ans + lastdigit
-    number = Math.floor(number/10)
-}
-console.log(ans)
+// let number = 123
+// let ans = 0;
+// while (number > 0){
+//     let lastdigit = number % 10
+//     ans = ans + lastdigit
+//     number = Math.floor(number/10)
+// }
+// console.log(ans)
 
