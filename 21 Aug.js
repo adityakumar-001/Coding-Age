@@ -7,14 +7,14 @@
 
 // console.log(typeof anotherNum)
 
-const amount = 8737483
-console.log(amount.toString().length)
+// const amount = 8737483
+// console.log(amount.toString().length)
 
-// // const result = 12.3456789123;
+const result = 12.3456789123;
 
-// // console.log("Orignal:   ", result);
-// // console.log("toFixed(2):   ", result.toFixed(5)); //Fixed
-// // console.log("toPrecision(7):   ", result.toPrecision(7)); 
+console.log("Orignal:   ", result);
+console.log("toFixed(2):   ", result.toFixed(5)); //Fixed
+console.log("toPrecision(7):   ", result.toPrecision(7)); 
 
 // // const anotherResult = 7484375.65747
 // // console.log(typeof(anotherResult.toPrecision(3)))
