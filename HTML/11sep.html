@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        /*! Selectors */
+
+        /* 1. universal selector -> "*", select all the tags inside the html body */
+
+        * {
+            background-color: rgb(0, 0, 0);
+            color: white;
+        }
+
+        /* 2. class -> . */
+
+        .c1 {
+            color: rgb(165, 105, 105);
+        }
+
+        /* 3. id -> # */
+
+        #i1 {
+            color: gray;
+        }
+
+        /* directly tag name */
+
+        /* decendent selector ->  */
+        .div1 .p1 {
+            color: purple;
+        }
+
+        /* child selector */
+
+        .div1>.p1 {
+            color: aqua;
+        }
+
+        /* grouping */
+
+        div,
+        section {
+            color: green;
+        }
+
+        input[type='password'] {
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="c1">Hello</div>
+    <div id="i1">World</div>
+
+    <!-- decendent selector -->
+
+    <div class="div1">
+        <p class="p1">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, quasi!
+        </p>
+        <section>
+            <p class="p1">Decendent selector 1</p>
+        </section>
+        <main>
+            <p class="p1">Decendent selector 2</p>
+        </main>
+    </div>
+
+    <div>Hello</div>
+    <section>Hello</section>
+
+    <input type="text" />
+    <input type="email" name="" id="" />
+    <input type="password" name="" id="" />
+</body>
+
+</html>
