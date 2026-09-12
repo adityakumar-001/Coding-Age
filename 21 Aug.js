@@ -10,19 +10,19 @@
 // const amount = 8737483
 // console.log(amount.toString().length)
 
-const result = 12.3456789123;
+// const result = 12.3456789123;
 
-console.log("Orignal:   ", result);
-console.log("toFixed(2):   ", result.toFixed(5)); //Fixed
-console.log("toPrecision(7):   ", result.toPrecision(7)); 
+// console.log("Orignal:   ", result);
+// console.log("toFixed(2):   ", result.toFixed(2)); //Fixed
+// console.log("toPrecision(7):   ", result.toPrecision(2)); 
 
-// // const anotherResult = 7484375.65747
-// // console.log(typeof(anotherResult.toPrecision(3)))
-// // 7.48e+6 ---> 7480000
-// // 6.876e+9 ----> 6876000000
+// const anotherResult = 7484375.65747
+// console.log(typeof(anotherResult.toPrecision(3)))
+// 7.48e+6 ---> 7480000
+// 6.876e+9 ----> 6876000000
 
 // const rupee = 100000
-// console.log(rupee.toLocaleString('en-US'))
+// console.log(rupee.toLocaleString("en-Us"))
 
 
 // // Maths --> javascript inbuilt function
@@ -38,12 +38,12 @@ console.log("toPrecision(7):   ", result.toPrecision(7));
 
 // binarry to number 
 // Sum of numbers
-// let number = 123
-// let ans = 0;
-// while (number > 0){
-//     let lastdigit = number % 10
-//     ans = ans + lastdigit
-//     number = Math.floor(number/10)
-// }
-// console.log(ans)
+let number = 123456
+let ans = 0;
+while (number > 0){
+    let lastdigit = number % 10
+    ans = ans + lastdigit
+    number = Math.floor(number/10)
+}
+console.log(ans)
 
