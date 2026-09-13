@@ -38,7 +38,7 @@
 
 // binarry to number 
 // Sum of numbers
-let number = 123456
+let number = 12345612
 let ans = 0;
 while (number > 0){
     let lastdigit = number % 10
@@ -46,4 +46,3 @@ while (number > 0){
     number = Math.floor(number/10)
 }
 console.log(ans)
-

@@ -13,7 +13,7 @@
 
 // Work is Finally Done:
 
-let  a = 60, b = 60,  c = 60
+let  a = 60, b = 90,  c = 30
 let d = a + b + c
 if (d != 180 ) {
     console.log ("Not a triangle")}
