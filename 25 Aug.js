@@ -10,7 +10,8 @@
 //         if (arr[i] > SecondLar && arr[i] != largest){
 //             SecondLar = arr[i]
 //         }
-// } console.log(SecondLar)
+// } console.log(largest)
+// console.log(SecondLar)
 
 
 // Function:- A function in programming is a reusable block of code that performs a specific task. Simple example
@@ -41,7 +42,7 @@
 
 // Find the largest number using function 
 // input: ([1, ,2, 3, 4, 5])
-// output: 5
+// output: 5   
 
 function largestNumber(arr){
     let largest = arr[0];
