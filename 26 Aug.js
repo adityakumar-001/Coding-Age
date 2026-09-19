@@ -7,16 +7,19 @@
 // console.log(a);
 
 // function subs (a, b){
-//     return a - b 
+//     return a / b 
 // }
-// let b = subs(9, 4)
-// console.log(b);
+// let b = subs(9, 81)
+// console.log("Answer is :", b );
 
 // // default parameter
 // function sum1 (a = 10, b){
 //     return a + b
 // }
-// console.log(sum1(49, 89));
+// function sub1 (a = 10, b){
+//     return a - b}
+// console.log(sum1(34, 89));
+// console.log(sub1(34, 89));
 
 // function sum2 (a, b = 10){
 // return a + b
@@ -26,34 +29,38 @@
 
 // Cheak whether a number is an Armstrong number.
 // 153 --> 1^3 + 5^3 + 3^3 = 153
-let number = 153;
-let Orignal = number
-let ans = 0;
-while (number > 0){
-    let lastdigit = number % 10
-     lastdigit = lastdigit **3
-    ans += lastdigit
-    number = Math.floor(number /10)
-}
-if (Orignal == ans){
-    console.log("Its Armstrong Number");
-}
-else {
-    console.log("Not a Armstrong Number");
+// let number = 153;
+// let Orignal = number
+// let ans = 0;
+// while (number > 0){
+//     let lastdigit = number % 10
+//      lastdigit = lastdigit **3
+//     ans += lastdigit
+//     number = Math.floor(number /10)
+// }
+// if (Orignal == ans){
+//     console.log("Its Armstrong Number");
+// }
+// else {
+//     console.log("Not a Armstrong Number");
     
-}
+// }
 
 // 145 --> 1! + 4! + 5! = 145
-// let num = 145;
-// let Orignal = num;
-// let ans = 0;
-// while (num > 0){
-//     let lastdigit = num % 10;
-//     lastdigit = lastdigit ** 3
-//     num += lastdigit
-//     num = Math.floor(num / 10) 
-// } 
-// console.log(ans);
+let num = 145;
+let Orignal = num;
+let ans = 0;
+while (num > 0){
+    let lastdigit = num % 10;
+    let ans = 0
+    let lastDigitFact = 0;
+    for (let i = 1; i <= lastdigit; i++) {
+        lastDigitFact = lastDigitFact * i;
+    { }
+
+    num = Math.floor(num / 10) 
+} 
+console.log(ans);
 
 
 // let num =  145

@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* : pseudo class */
+      /* :: pseudo element */
+      button:hover {
+        background-color: red;
+        color: white;
+        border: none;
+        padding: 5px;
+        border-radius: 5px;
+        box-shadow: 5px 5px 5px rgb(199, 144, 144);
+        transform: rotate(180deg);
+        transition-duration: 2s;
+      }
+
+      button {
+        cursor: pointer;
+        background-color: yellow;
+        box-shadow: 5px 5px 5px rgb(217, 218, 148);
+      }
+
+      input:focus {
+        background-color: gray;
+      }
+
+      a:visited {
+        color: black;
+      }
+
+      a:nth-child(3n) {
+        background-color: yellow;
+      }
+
+      /* Pseudo element */
+
+      div::selection {
+        background-color: blanchedalmond;
+        color: brown;
+      }
+
+      div::after {
+        content: 'Hello iMa learning pse sdijcijcdijpsdcjisdcijcsdijcsdijcsdijcsdjicdsijjcsdjicdsjicdsijcdsjidcijcdjicdsjisdcsjicdsij';
+      }
+
+      div::before {
+        content: 'asdhchsdhsdhsdhsdhsdshds sdusdhdscu uisddchsdcu usdhsdcucsdh usdchsdcusdchj sducudhhcdchduefhjdcudjeujdcheiefh';
+      }
+    </style>
+  </head>
+  <body>
+    <!-- pseudo class -->
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa repellat
+      nihil labore perspiciatis, accusamus doloribus animi dolor fuga
+      reiciendis! Consequatur.
+    </p>
+
+    <input type="password" />
+
+    <button>Download</button>
+
+    <hr />
+    <hr />
+
+    <header>
+      <a href="https://facebook.com" target="_blank">Google</a>
+      <a href="https://google.com">Google</a>
+      <a href="https://google.com">Google</a>
+      <a href="https://google.com">Google</a>
+      <a href="https://google.com">Google</a>
+      <a href="https://google.com">Google</a>
+      <a href="https://google.com">Google</a>
+      <a href="https://google.com">Google</a>
+      <a href="https://google.com">Google</a>
+      <a href="https://google.com">Google</a>
+      <a href="https://google.com">Google</a>
+    </header>
+
+    <hr />
+    <hr />
+
+    <div>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias facere
+      ipsum vitae culpa reprehenderit atque, ullam reiciendis! Nihil repudiandae
+      soluta, a molestiae, nulla fugit perferendis facere incidunt voluptas
+      temporibus eaque cupiditate animi. Tempora commodi eum placeat voluptatum
+      itaque consectetur, fugit minus illo? Placeat <mark></mark> unde molestias
+      non fugit voluptas natus distinctio? Dolorem unde suscipit, nisi enim
+      commodi debitis iste incidunt voluptatibus labore sunt necessitatibus ad
+      animi, ducimus harum, molestiae libero rerum nam laboriosam doloribus
+      consectetur autem natus eveniet velit explicabo. Laudantium, beatae.
+    </div>
+  </body>
+</html>
