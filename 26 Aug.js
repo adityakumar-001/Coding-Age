@@ -56,7 +56,7 @@ while (num > 0){
     let lastDigitFact = 0;
     for (let i = 1; i <= lastdigit; i++) {
         lastDigitFact = lastDigitFact * i;
-    { }
+    }
 
     num = Math.floor(num / 10) 
 } 

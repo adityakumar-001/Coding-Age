@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            position: relative;
+            animation-name: colorchange;
+            animation-duration: 10s;
+            animation-delay: 5s;
+            animation-direction: reverse;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes colorchange {
+            0% {
+                /* background-color: blue; */
+            }
+
+            25% {
+                /* background-color: green; */
+                top: 0px;
+                left: 200px;
+            }
+
+            50% {
+                /* background-color: aqua; */
+            }
+
+            75% {
+                /* background-color: brown; */
+                top: 200px;
+                right: 0px;
+            }
+
+            100% {
+                /* background-color: chartreuse; */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div style="animation-timing-function: linear;">Linear</div>
+    <div style="animation-timing-function: ease;">Ease</div>
+    <div style="animation-timing-function: ease-in;">Ease-in</div>
+    <div style="animation-timing-function: ease-out;">Ease-out</div>
+    <div style="animation-timing-function: ease-in-out;">Ease-in-out</div>
+</body>
+</html>

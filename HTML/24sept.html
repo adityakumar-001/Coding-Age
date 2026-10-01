@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buttons</title>
+    <style>
+        input {
+            display: none;
+        }
+
+        label {
+            border: 1px solid black;
+            padding: 5px 15px;
+            border-radius: 5px;
+        }
+
+        .buttons {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .buttons input:checked+label {
+            background-color: red;
+            color: white;
+            border: none;
+        }
+
+        .content {
+            width: 100%;
+        }
+
+        .content>div {
+            display: none;
+        }
+
+        #home:checked~.content .home {
+            display: block;
+        }
+
+        #experience:checked~.content .experience {
+            display: block;
+        }
+
+        #github:checked~.content .github {
+            display: block;
+        }
+
+        #project:checked~.content .project {
+            display: block;
+        }
+
+        #education:checked~.content .education {
+            display: block;
+        }
+
+        #contact:checked~.content .contact {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="buttons">
+        <input type="radio" name="a" id="home" checked />
+        <label for="home">Home</label>
+
+        <input type="radio" name="a" id="experience" />
+        <label for="experience">Experience</label>
+
+        <input type="radio" name="a" id="github" />
+        <label for="github">Github</label>
+
+        <input type="radio" name="a" id="project" />
+        <label for="project">Project</label>
+
+        <input type="radio" name="a" id="education" />
+        <label for="education">Education</label>
+
+        <input type="radio" name="a" id="contact" />
+        <label for="contact">Contact</label>
+
+        <div class="content">
+
+            <div class="home">
+                <h1>Home</h1>
+                <p>This home page</p>
+            </div>
+            <div class="experience">
+                <h1>Experience</h1>
+                <p>This home page</p>
+            </div>
+            <div class="github">
+                <h1>Github</h1>
+                <p>This home page</p>
+            </div>
+            <div class="project">
+                <h1>Project</h1>
+                <p>This home page</p>
+            </div>
+            <div class="education">
+                <h1>Education</h1>
+                <p>This home page</p>
+            </div>
+            <div class="contact">
+                <h1>Contact</h1>
+                <p>This home page</p>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

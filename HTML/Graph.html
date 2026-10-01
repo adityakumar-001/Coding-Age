@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .chart-container {
+  display: flex;
+  align-items: flex-end; /* Align bars to the bottom */
+  gap: 20px;
+  height: 300px;
+  width: 100%;
+  max-width: 500px;
+  border-bottom: 2px solid #333;
+  padding: 20px;
+}
+
+.bar {
+  flex: 1;
+  background-color: #3b82f6;
+  /* Use the inline variable to set the height */
+  height: var(--size); 
+  position: relative;
+  border-radius: 4px 4px 0 0;
+  transition: height 0.5s ease;
+}
+
+.bar:hover {
+  background-color: #1d4ed8;
+}
+
+.label {
+  position: absolute;
+  bottom: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.pie-chart {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  /* Slices: Red (40%), Blue (35%), Green (25%) */
+  background: conic-gradient(
+    #ef4444 0% 40%,
+    #3b82f6 40% 75%,
+    #10b981 75% 100%
+  );
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="chart-container">
+  <!-- The style attribute maps the data percentage to a CSS variable -->
+  <div class="bar" style="--size: 80%;">
+    <span class="label">Mon</span>
+  </div>
+  <div class="bar" style="--size: 45%;">
+    <span class="label">Tue</span>
+  </div>
+  <div class="bar" style="--size: 90%;">
+    <span class="label">Wed</span>
+  </div>
+  <div class="bar" style="--size: 60%;">
+    <span class="label">Thu</span>
+  </div>
+</div>
+
+<div class="pie-chart"></div>
+
+</body>
+</html>

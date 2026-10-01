@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        input{
+            display: none;
+        }
+
+        .label{
+            margin: 10px;
+            padding: 20px;
+        }
+
+        .header{
+            background-color: rgb(65, 110, 7);
+            display: flex;
+            align-items: center;
+            gap: 30px;
+        }
+
+        .header-logo{
+            margin: 10px;
+            margin-left: 30px;
+        }
+
+        .buttons{
+            /* border: 1px solid black; */
+            border-radius: 5px;
+            gap: 100px;
+            align-items: center;
+            display: flex;
+            flex-wrap: wrap;
+            margin-left: 300px;
+        }
+
+        .buttons:hover{
+            cursor: pointer;
+        }
+
+        .buttons input:checked + label {
+            background-color: red;
+            color: white;
+            border: none;
+        }
+    </style>
+</head>
+
+<body style="background-color: rgb(150, 147, 147);">
+    <div class="header">
+        <div class="header-logo"> <img src="https://cdn-icons-png.flaticon.com/128/243/243447.png" alt=""
+                height="50px">
+        </div>
+        <div class="buttons">
+                <input type="radio" name="a" id="home" checked>
+                <label for="home">Home</label>
+
+                <input type="radio" name="a" id="recycle">
+                <label for="recycle">Recycle</label>
+
+                <input type="radio" name="a" id="book-slot">
+                <label for="book-slot">Book Slot</label>
+
+                <input type="radio" name="a" id="events">
+                <label for="events">Events</label>
+            </div>
+    </div>
+</body>
+
+</html>
