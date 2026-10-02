@@ -47,20 +47,20 @@
 // }
 
 // 145 --> 1! + 4! + 5! = 145
-let num = 145;
-let Orignal = num;
-let ans = 0;
-while (num > 0){
-    let lastdigit = num % 10;
-    let ans = 0
-    let lastDigitFact = 0;
-    for (let i = 1; i <= lastdigit; i++) {
-        lastDigitFact = lastDigitFact * i;
-    }
+// let num = 145;
+// let Orignal = num;
+// let ans = 0;
+// while (num > 0){
+//     let lastdigit = num % 10;
+//     let ans = 0
+//     let lastDigitFact = 0;
+//     for (let i = 1; i <= lastdigit; i++) {
+//         lastDigitFact = lastDigitFact * i;
+//     }
 
-    num = Math.floor(num / 10) 
-} 
-console.log(ans);
+//     num = Math.floor(num / 10) 
+// } 
+// console.log(ans);
 
 
 // let num =  145

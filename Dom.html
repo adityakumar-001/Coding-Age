@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* selector */
+    </style>
+</head>
+<body>
+    <header class="a" id="b">Not clicked</header>
+    <button>Click me</button>
+    <p></p>
+</body>
+
+<script>
+    // select the tag
+    const a = document.getElementsByClassName("a") // an array with properties of tag
+    const b = document.getElementById("b") // actual tag
+    const aa = document.querySelector(".a")
+    console.log(aa)
+
+    document.querySelector("button").style.backgroundColor = "red"
+
+    const newDiv = document.createElement("div")
+    newDiv.innerText = "Hello"
+    document.querySelector("p").appendChild(newDiv)
+
+    const footer = document.querySelector("footer")
+
+    footer.innerHTML = "<div> This is footer </div>"
+
+    footer.setAttribute("class", "hello")
+</script>
+</html>
