@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Counter APP -->
+    <div>0</div>
+    <!-- <button onclick="func()">Increase by 1</button> -->
+     <button id="inc">increase by 1</button>
+    <button id="dec">Decrease by 1</button>
+    <button id="res">Reset</button>
+</body>
+<script>
+    const div = document.querySelector("div")  // tag
+    let divText = div.innerText // 0 (string)
+    let number = Number(divText)  // 0 (number)
+
+    const increaseButton = document.getElementById("inc")
+    const decreaseButton = document.getElementById("dec")
+    const resetButton = document.getElementById("res")
+
+    increaseButton.addEventListener("click", () => {
+        number = number + 1
+        if (number > 10) {
+            alert("Cannot go beyond 10")
+            return
+        }
+        div.innerText = number
+        return
+    })
+
+    decreaseButton.addEventListener("click", () => {
+        number = number - 1
+        if (number < -10) {
+            alert("Cannot go below -10")
+            return
+        }
+        div.innerText = number
+        return
+    })
+
+    resetButton.addEventListener("click", () => {
+        number = 0
+        div.innerText = number
+        return
+    })
+</script>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="class1" id="id1"></h1>
+
+    <div class="parent">
+        <div class="day1">Monday</div>
+        <div class="day2">Tuesday</div>
+        <div class="day3">Wednesday</div>
+        <div class="day4">Thursday</div>
+        <div class="day5">Friday</div>
+        <div class="day6">Saturday</div>
+    </div>
+
+    <button>Click me</button>
+</body>
+<script>
+    const heading = document.getElementById("id1")
+    console.log(heading)
+    console.log(heading.id)
+    console.log(heading.className)
+    console.log(heading.getAttribute("id"))
+    heading.setAttribute("name", "headingh1")
+    console.log(heading)
+
+    const parentDiv = document.querySelector(".parent")
+    console.log(parentDiv)
+    console.log(parentDiv.children)  // array
+    console.log(parentDiv.children[0].innerHTML)
+    console.log(parentDiv.firstElementChild) // tag
+    console.log(parentDiv.lastElementChild)
+    console.log(parentDiv.firstChild)  // characteristics
+    console.log(parentDiv.lastChild)
+
+    console.log("NODES: ", parentDiv.childNodes)
+    console.log()
+
+    const newDiv = document.createElement("div")
+    newDiv.setAttribute("class", "day7")
+    newDiv.innerText = "sunday"
+    console.log(newDiv)
+    parentDiv.appendChild(newDiv)
+
+    // eventListener
+    const button = document.querySelector("button")
+    button.addEventListener("mouseenter", () => {
+        button.style.backgroundColor = "red"
+    })
+
+    button.addEventListener("mouseleave", () => {
+        button.style.backgroundColor = "yellow"
+    })
+
+    // https://dummyjson.com/todos/1
+
+
+</script>
+</html>

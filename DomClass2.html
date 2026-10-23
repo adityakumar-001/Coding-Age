@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- DOM manipulation -->
+     <div class="class1">Hello</div>
+     <header id="id1">Header</header>
+     <input type="text"> <!--input tag -> value catch-->
+</body>
+    <script>
+        const header = document.querySelector("header")
+        const inputTag = document.querySelector("input")
+
+        // setInterval (() =>{
+        // header.innerText = inputTag.value
+        // }, 100)
+
+        inputTag.oninput = () => {
+            header.innerText = inputTag.value
+        }
+    </script>
+</html>
